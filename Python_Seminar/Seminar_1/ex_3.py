@@ -5,9 +5,9 @@
 # - 5 -> нет
 # - 0, 34 -> 3
 
-for x in range(0, 2):
-    for y in range(0, 2):
-        for z in range(0, 2):
-            comment1 = not (x or y or z)
-            comment2 = not x and not y and not z
-            print(x, y, z, comment1, comment2)
+num = float(input('Введите дробное число - '))
+if num == int(num):
+    print(f'Ввели целое число {int(num)} ')
+else:
+    num2 = num * 10 % 10
+    print(f'Вевели число {num} первая цифра дробной части {int(num2)}')

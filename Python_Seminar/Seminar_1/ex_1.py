@@ -20,4 +20,4 @@ if (a*a == b) or (b * b == a):
     print('да')
 
 else:
-    print('нет')   
+    print('нет')
